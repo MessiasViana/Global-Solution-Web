@@ -1,0 +1,86 @@
+.hidden {
+  display: none !important;
+}
+
+.title-area {
+  margin: 90px 0;
+}
+
+.title-area h1 {
+  text-align: center;
+  color: #006341;
+}
+
+#section-action {
+  display: flex;
+  justify-content: center;
+}
+
+#action-form {
+  display: flex;
+  justify-content: center;
+}
+
+#action-form div label{
+  display: block;
+}
+
+.section-form {
+  display: flex;
+  justify-content: center;
+}
+
+#formArea {
+  display: flex;
+  justify-content: center;
+  margin: 8rem 0;
+  width: 100%;
+  max-width: 1200px;
+}
+
+form {
+  width: 70%;
+}
+
+.inputs-area {
+  display: flex;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-right: 2rem;
+  margin-bottom: 1rem;
+}
+
+input, textarea, select {
+  border: 1px solid #e6ecf8;
+  border-radius: 3px;
+  font-size: 1rem;
+  padding: 10px 0.5rem;
+}
+
+textarea {
+  resize: none;
+}
+
+#section-back {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: #008060;
+}
+
+@media (max-width: 768px) {
+  .inputs-area {
+    flex-direction: column;
+  }
+
+  .button-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
